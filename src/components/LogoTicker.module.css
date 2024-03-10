@@ -1,0 +1,71 @@
+.pulse1Icon,
+.quantum1Icon {
+  position: absolute;
+  top: 50px;
+  left: 292.6px;
+  width: 125.1px;
+  height: 32px;
+  object-fit: cover;
+}
+.pulse1Icon {
+  top: 54.8px;
+  left: 867.6px;
+  width: 100.8px;
+  height: 22.3px;
+}
+.acme1Icon,
+.apex1Icon,
+.celestia1Icon,
+.echo1Icon {
+  position: absolute;
+  top: 51.9px;
+  left: 475.9px;
+  width: 160px;
+  height: 28.1px;
+  object-fit: cover;
+}
+.acme1Icon,
+.apex1Icon,
+.celestia1Icon {
+  left: 694.1px;
+  width: 115.4px;
+}
+.acme1Icon,
+.apex1Icon {
+  top: 52.9px;
+  left: 1026.7px;
+  width: 85.3px;
+  height: 27.2px;
+}
+.acme1Icon {
+  top: 50px;
+  left: 88px;
+  width: 146.4px;
+  height: 32px;
+}
+.logoTickerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0) 49.92%, #fff);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.logoTicker1 {
+  height: 132px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.logoTicker {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}

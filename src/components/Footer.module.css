@@ -1,0 +1,197 @@
+.frameWithChildren,
+.logosaasIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.frameWithChildren {
+  height: 80.49%;
+  top: 14.63%;
+  bottom: 4.88%;
+  background: linear-gradient(
+    89.43deg,
+    #f87bff,
+    #fb92cf 24.06%,
+    #ffdd9b 48.2%,
+    #c2f0b1 72.84%,
+    #2fd8fe
+  );
+  filter: blur(11px);
+}
+.logosaasIcon {
+  height: 97.56%;
+  top: 0;
+  bottom: 2.44%;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logodefault {
+  width: 40px;
+  height: 41px;
+  position: relative;
+}
+.effortlesslyTurnYour {
+  align-self: stretch;
+  position: relative;
+}
+.frameWithLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.socialsIcon,
+.socialsIcon1,
+.socialsIcon2,
+.socialsIcon3,
+.socialsIcon4,
+.socialsIcon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.defaultLogo,
+.logoGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoGroup {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.defaultLogo {
+  width: 240px;
+  flex-direction: column;
+  gap: 111px 0;
+}
+.product1 {
+  color: var(--neutral-100);
+}
+.faq,
+.features,
+.integrations,
+.pricing,
+.product1,
+.updates {
+  position: relative;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.company1 {
+  color: var(--neutral-100);
+}
+.about,
+.blog,
+.careers,
+.company1,
+.contact,
+.manifesto,
+.press {
+  position: relative;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.resources1 {
+  color: var(--neutral-100);
+}
+.community,
+.docs,
+.examples,
+.guides,
+.resources1 {
+  position: relative;
+}
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.legal {
+  color: var(--neutral-100);
+}
+.legal,
+.privacy,
+.security1,
+.terms {
+  position: relative;
+}
+.security {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.footer,
+.footerL,
+.productParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.productParent {
+  justify-content: flex-start;
+  gap: 0 48px;
+  max-width: 100%;
+  color: var(--color-gray-100);
+}
+.footer,
+.footerL {
+  box-sizing: border-box;
+}
+.footerL {
+  width: 1212px;
+  background-color: var(--color-black);
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--body-s-size);
+  color: var(--color-silver);
+  font-family: var(--body-s);
+}
+@media screen and (max-width: 750px) {
+  .footerL {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .productParent {
+    flex-wrap: wrap;
+    gap: 0 24px;
+  }
+}

@@ -1,0 +1,58 @@
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons,
+.integrations {
+  position: relative;
+}
+.frameTestimonial,
+.iconsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameTestimonial {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.iconsParent {
+  flex-direction: row;
+  gap: 0 16px;
+}
+.icons1 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dedicatedAccountManager,
+.icons1 {
+  position: relative;
+}
+.dedicatedManager,
+.footerSocials,
+.iconsGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dedicatedManager {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.footerSocials,
+.iconsGroup {
+  flex-direction: row;
+  gap: 0 15px;
+}
+.footerSocials {
+  flex-direction: column;
+  gap: 20px 0;
+  text-align: left;
+  font-size: var(--body-s-size);
+  color: var(--color-black);
+  font-family: var(--body-s);
+}

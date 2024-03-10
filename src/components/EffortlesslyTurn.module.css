@@ -1,0 +1,400 @@
+.asASeasoned {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.manifestoPressIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera {
+  width: 82px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru00 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.resourcesExamples {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.blogCareers,
+.resourcesExamples,
+.testimonial {
+  display: flex;
+  justify-content: flex-start;
+}
+.blogCareers {
+  width: 191px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.testimonial {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.asASeasoned1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.testimonialFrameIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.jamietechguru001 {
+  width: 63px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
+.testimonialFrame,
+.testimonialFrame1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.testimonialFrame1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.testimonialFrame {
+  width: 133px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.integrationsUpdates,
+.testimonial1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonial1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.integrationsUpdates {
+  flex: 1;
+  gap: 24px 0;
+  min-width: 211px;
+  max-width: 100%;
+}
+.asASeasoned2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.frameChild {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.jamietechguru002 {
+  width: 63px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
+.alexRiveraParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.alexRiveraParent,
+.ellipseParent,
+.testimonial2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  width: 152px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.testimonial2 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.asASeasoned3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.frameItem {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera3 {
+  width: 78px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru003 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.alexRiveraGroup,
+.ellipseGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.alexRiveraGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipseGroup {
+  width: 147px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.integrationsUpdates1,
+.productFeatures,
+.testimonial3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonial3 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.integrationsUpdates1,
+.productFeatures {
+  flex: 1;
+  gap: 24px 0;
+  min-width: 211px;
+  max-width: 100%;
+}
+.productFeatures {
+  flex-direction: row;
+  gap: 0 20px;
+  min-width: 435px;
+}
+.asASeasoned4 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.alexRiveraJamieTechguru1 {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera4 {
+  width: 101px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru004 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.alexRiveraJamieTechguru2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alexRiveraJamieTechguru {
+  width: 164px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+  text-align: center;
+}
+.testimonial4 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.asASeasoned5 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.frameInner {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera5 {
+  width: 97px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru005 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.alexRiveraContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.alexRiveraContainer,
+.ellipseContainer,
+.testimonial5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseContainer {
+  width: 184px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.testimonial5 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.effortlesslyTurn,
+.testimonialFrame2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonialFrame2 {
+  width: 325px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1px 0;
+  min-width: 325px;
+}
+.effortlesslyTurn {
+  width: 1015px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 20px;
+  text-align: left;
+  font-size: var(--body-bold-size);
+  color: var(--color-black);
+  font-family: var(--body-s);
+}
+@media screen and (max-width: 1050px) {
+  .testimonialFrame2 {
+    flex: 1;
+  }
+  .effortlesslyTurn {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .productFeatures {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}

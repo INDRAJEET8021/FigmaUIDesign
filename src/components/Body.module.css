@@ -1,0 +1,210 @@
+.asASeasoned {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.logoGroupParent {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera {
+  width: 88px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru00 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.headerFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonsGetForFreeIcons,
+.headerFrame,
+.testimonial {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonsGetForFreeIcons {
+  width: 178px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.testimonial {
+  flex: 0.7538;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+  min-width: 244px;
+  max-width: 100%;
+}
+.asASeasoned1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.logoDefaultRectangle {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera1 {
+  width: 82px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.jamietechguru001 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.footerFrame,
+.productGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.productGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerFrame {
+  width: 144px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.signupFrame,
+.testimonial1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonial1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+}
+.signupFrame {
+  flex: 1;
+  padding: var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+  min-width: 244px;
+  max-width: 100%;
+}
+.asASeasoned2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.frameChild {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.alexRivera2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.jamietechguru002 {
+  width: 79px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
+.alexRiveraParent,
+.ellipseParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.alexRiveraParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipseParent {
+  width: 151px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: center;
+}
+.body,
+.testimonial2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonial2 {
+  flex: 0.7538;
+  border-radius: var(--br-xl);
+  background-color: var(--neutral-100);
+  box-shadow: 0 7px 14px #eaeaea;
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl);
+  gap: 20px 0;
+  min-width: 244px;
+}
+.body {
+  width: 1016px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 20.5px;
+  text-align: left;
+  font-size: var(--body-bold-size);
+  color: var(--color-black);
+  font-family: var(--body-s);
+}
+@media screen and (max-width: 1050px) {
+  .body {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonial,
+  .testimonial2 {
+    flex: 1;
+  }
+}

@@ -1,0 +1,64 @@
+.price,
+.spacer {
+  position: relative;
+}
+.price {
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  white-space: nowrap;
+}
+.spacer {
+  height: 5.6px;
+  width: 6px;
+  background-color: var(--neutral-100);
+  opacity: 0;
+}
+.companyAboutBlog {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 7.599999999999909px;
+}
+.monthly {
+  position: relative;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+.productFeaturesIntegrations {
+  flex-direction: column;
+  gap: 14.2px 0;
+}
+.footerLogoDefault,
+.getForFreeButtons,
+.productFeaturesIntegrations {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLogoDefault {
+  flex-direction: column;
+  padding: 8.599999999999909px 0 0;
+  font-size: var(--h5-size);
+  color: var(--neutral-600);
+}
+.getForFreeButtons {
+  flex-direction: row;
+  gap: 0 4px;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--color-black);
+  font-family: var(--h2);
+}
+@media screen and (max-width: 750px) {
+  .price {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .price {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+}
